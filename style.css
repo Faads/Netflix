@@ -1,0 +1,312 @@
+/* div {
+    border: 3px solid blue;
+} */
+
+body {
+    background-color: black;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.border {
+    border-top: 10px solid grey;
+}
+
+.img {
+    height: auto;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container ul {
+    flex: 1;
+}
+
+.footer-content-container {
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container ul li {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.language-select-container {
+    border: 1px solid grey;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 12px;
+}
+
+select {
+    padding: 15px;
+}
+
+.netlix-sverige-text {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    border-top: 10px solid grey;
+}
+
+.questions {
+    padding-top: 50px;
+}
+
+.emailContainer {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.formPad {
+    width: 30rem;
+    padding: 1.2rem;
+}
+
+input[type=email] {
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  /* .centerEmailText {
+    justify-content: center;
+  } */
+
+  .emailButton {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    display: flex;
+    padding: 0 2rem;
+  }
+
+.white {
+    color: white;
+    font-size: 1.2rem;
+}
+
+  .netflixForChilderen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .netflixForChilderenPadding {
+    padding-top: 15rem;
+    
+  }
+
+  .NetflixForChilderenContainer {
+    width: 600px;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+  }
+  
+ .headerPad {
+    position: relative;
+    top: 13rem;
+    font-size: 3.21rem;
+    line-height: 1;
+
+ }
+
+ 
+
+
+ .look {
+    display: flex;
+    justify-content: center;
+ }
+
+ .lookContainer{
+    width: 800px;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+  }
+ 
+  .lookPad {
+    position: relative;
+    top: 13rem;
+    font-size: 3.21rem;
+    line-height: 1;
+
+ }
+
+ /* postionerar hero bilden rätt */
+
+.imgHero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.figureContainer {
+    height: 55rem; 
+    position: relative;
+}
+
+.netflixLogoContainer {
+   
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.imgLogo {
+    
+    fill: red;
+    width: 16rem;
+    
+    
+
+}
+
+.nav {
+ 
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+    z-index: 1;
+    
+}
+
+.login {
+    background-color: red;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .4rem .8rem;
+    border-radius: 10px;
+    outline: 2px solid black;
+   
+}
+
+.login:hover {
+    background-color: rgb(194, 9, 9);
+    color: rgb(235, 229, 229);
+}
+
+.navLang {
+    padding: .4rem .8rem;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.buttonPad {
+    margin: .5rem 3rem;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    
+}
+
+
+.navSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    /* padding-left: 10rem; */
+    
+    
+ }
+
+ .padpad {
+    padding-top: 23rem;
+ }
+
+ .navPad {
+    /* position: relative; */
+    padding-top: 13rem;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1;
+
+ }
+
+ .heroLangContainer {
+    display: flex;
+    padding-top: 27rem;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    
+ }
+
+ .heroEmail {
+    margin-top: 9rem;
+    padding:1rem 2rem ;
+    
+ }
+
+ .heroButton {
+    background-color: red;
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    margin-top: 9rem;
+    margin-right: 7rem;
+ }
+
+ .heroFlex {
+    display: flex;
+
+ }
+
+ .heroThird {
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 28rem ;
+    
+ } 
+
+ /* .navContainer{
+    width: 600px;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    width: 100%;
+  } */
+ 
+
+
+ /* .serchBar {
+    display: flex;
+    justify-content: center;
+    position: absolute ;
+    z-index: 2;
+    width: 100%;
+    padding-left: 10rem;
+    padding-top: 26rem;
+ }
+
+ .serchBarRel {
+    padding: 1rem;
+    
+ }  */
